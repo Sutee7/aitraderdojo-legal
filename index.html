@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Trader Dojo — Automated Trading Analysis</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0a0e1a;
+      color: #e0e6f0;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #0d1b2a 0%, #1a2744 100%);
+      border-bottom: 2px solid #f0b429;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header .logo-text {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #f0b429;
+      letter-spacing: 1px;
+    }
+    header .tagline {
+      font-size: 0.85rem;
+      color: #8899bb;
+      margin-top: 2px;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(180deg, #1a2744 0%, #0a0e1a 100%);
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: #f0b429;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      color: #aabbd4;
+      max-width: 640px;
+      margin: 0 auto 36px;
+      line-height: 1.7;
+    }
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: #1e2d4a;
+      border: 1px solid #2d4270;
+      color: #7eb8f7;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+    .feature-card {
+      background: #111827;
+      border: 1px solid #1e2d4a;
+      border-radius: 12px;
+      padding: 28px 24px;
+    }
+    .feature-card .icon { font-size: 2rem; margin-bottom: 12px; }
+    .feature-card h3 { color: #f0b429; margin-bottom: 8px; font-size: 1.05rem; }
+    .feature-card p { color: #8899bb; font-size: 0.9rem; line-height: 1.6; }
+    .tiktok-section {
+      text-align: center;
+      background: #0d1b2a;
+      border-top: 1px solid #1e2d4a;
+      border-bottom: 1px solid #1e2d4a;
+      padding: 50px 24px;
+    }
+    .tiktok-section h2 { color: #f0b429; font-size: 1.6rem; margin-bottom: 12px; }
+    .tiktok-section p { color: #8899bb; max-width: 560px; margin: 0 auto; line-height: 1.7; }
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      color: #4a5a7a;
+      font-size: 0.85rem;
+    }
+    footer a { color: #7eb8f7; text-decoration: none; margin: 0 12px; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo-text">⚡ AI TRADER DOJO</div>
+    <div class="tagline">Automated Trading Analysis & Content Platform</div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Trade Smarter.<br>Publish Automatically.</h1>
+  <p>
+    AI Trader Dojo is an automated system that generates financial market analysis
+    videos for XAUUSD (Gold) and BTCUSD using ICT/SMC concepts and Volume Profile,
+    then publishes them to YouTube and TikTok — fully automated.
+  </p>
+  <div class="badges">
+    <span class="badge">📊 XAUUSD Analysis</span>
+    <span class="badge">₿ BTCUSD Analysis</span>
+    <span class="badge">🎬 Auto Video Generation</span>
+    <span class="badge">📱 TikTok Publishing</span>
+    <span class="badge">▶️ YouTube Publishing</span>
+  </div>
+</section>
+
+<div class="features">
+  <div class="feature-card">
+    <div class="icon">📡</div>
+    <h3>Real-Time Market Data</h3>
+    <p>Fetches live prices and news, analyzes ICT/SMC structures and Volume Profile levels automatically.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">🎬</div>
+    <h3>Automated Video Production</h3>
+    <p>Generates professional market analysis videos with voiceover, charts, and thumbnails — no manual editing required.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">📱</div>
+    <h3>TikTok Integration</h3>
+    <p>Uses TikTok Content Posting API to upload and publish market analysis videos directly to the connected TikTok account.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">⚙️</div>
+    <h3>Full Pipeline Automation</h3>
+    <p>End-to-end pipeline from data collection to multi-platform publishing — runs on schedule with zero manual intervention.</p>
+  </div>
+</div>
+
+<section class="tiktok-section">
+  <h2>📱 TikTok Content Integration</h2>
+  <p>
+    AI Trader Dojo integrates with TikTok via the official Content Posting API and Login Kit
+    to deliver automated financial education content to the TikTok community.
+    All publishing is performed through authorized API access with user consent.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 AI Trader Dojo. All rights reserved.</p>
+  <p style="margin-top:10px;">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </p>
+</footer>
+
+</body>
+</html>
